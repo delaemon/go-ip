@@ -11,11 +11,10 @@ import (
 	"os"
 	"os/exec"
 	"strconv"
+	"text/template"
 	"time"
 
 	"golang.org/x/net/netutil"
-
-	"github.com/alecthomas/template"
 )
 
 var (
